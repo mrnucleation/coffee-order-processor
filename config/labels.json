@@ -1,0 +1,32 @@
+{
+  "labels": {
+    "appTitle": "Coffee Order Processor",
+    "importButton": "Import CSV",
+    "exportButton": "Export Excel",
+    "shippingName": "Shipping Name",
+    "white": "White",
+    "medium": "Medium",
+    "dark": "Dark",
+    "espresso": "Espresso",
+    "decaf": "Decaf",
+    "other": "Other",
+    "bagTotals": "Total Bags",
+    "totalBags": "Total Bags of Coffee",
+    "rawAmounts": "Estimated Raw Coffee (lb)",
+    "rawWhite": "Raw White",
+    "rawMedium": "Raw Medium",
+    "rawDark": "Raw Dark + Espresso",
+    "rawDecaf": "Raw Decaf",
+    "rawTotal": "Total Raw Coffee"
+  },
+  "productMappings": {
+    "White Roast - 12 oz / Subscribe & Save 10%": "white",
+    "Medium Roast - 12 oz / Subscribe & Save 10%": "medium",
+    "Medium Roast - 12 oz / Scroll to See Options Below": "medium",
+    "Dark Roast - 12 oz / Subscribe & Save 10%": "dark",
+    "Dark Roast - 12 oz / Scroll to See Options Below": "dark",
+    "Smooth Dark Roast Coffee Beans – Low-Acid Costa Rican - 12 oz / Scroll to See Options Below": "dark",
+    "Espresso Roast - 12 oz / Subscribe & Save 10%": "espresso",
+    "Decaf Roast - 12 oz / Subscribe & Save 10%": "decaf"
+  }
+}
