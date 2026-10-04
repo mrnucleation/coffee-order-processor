@@ -1,6 +1,6 @@
 [package]
 name = "coffee-order-processor"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert Shopify coffee orders into production-ready Excel workbooks"
 authors = ["Coffee Order Processor"]
 edition = "2021"
