@@ -11,6 +11,7 @@ A standalone Tauri desktop app that converts Shopify coffee-order CSV exports in
 - Shows and exports the total number of bags across all coffee types.
 - Rounds each roast's raw amount independently.
 - Exports a formatted `.xlsx` worksheet with the summary in the header or footer.
+- Prints the bag and raw-coffee summary directly without creating an Excel file.
 - Keeps all customer data local.
 
 ## Editable labels and product mappings

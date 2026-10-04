@@ -195,6 +195,13 @@ function App() {
           <button className="button secondary" onClick={exportExcel} disabled={busy || !data}>
             {labels.exportButton}
           </button>
+          <button
+            className="button ghost"
+            onClick={() => window.print()}
+            disabled={busy || !data || !raw}
+          >
+            Print Summary
+          </button>
         </div>
       </header>
 
@@ -306,7 +313,7 @@ function App() {
                   <h2>{fileName(data.sourcePath)}</h2>
                   <p>{data.customers.length} customers · {data.lineItemCount} line items</p>
                 </div>
-                <button className="button ghost" onClick={importCsv} disabled={busy}>
+                <button className="button ghost no-print" onClick={importCsv} disabled={busy}>
                   Replace file
                 </button>
               </section>
